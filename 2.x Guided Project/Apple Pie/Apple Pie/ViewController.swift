@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     
     func updateUI() {
         var letters = [String]()
-        for letter in currentGame.formattedWord.characters {
+        for letter in currentGame.formattedWord {
             letters.append(String(letter))
         }
         let wordWithSpacing = letters.joined(separator: " ")
